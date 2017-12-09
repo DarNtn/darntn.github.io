@@ -1,0 +1,55 @@
+#content {
+	height: 350px;
+	display:inline-block;
+}
+
+.banner {
+	height: 350px;	
+}
+
+/* Imagen de playstore para descargas - banner */
+#androidSLogo{
+	width:13em;
+}
+
+#mascotaLogo{
+	width:35%;
+	padding:0.5em;
+	padding-left:5em;
+	float:left;
+	clear:both;
+}
+
+
+#message{
+	text-align:center;
+	background-color:#dddddd;
+	padding: 3em;
+	margin-top:4em;
+	margin-left:30%;
+	margin-right:10em;
+	border:1px solid #0040FF;
+	border-radius: 20px 30px 30px 5px;
+	width:50%;
+	vertical-align: middle;
+	height: 200px;
+}
+
+/* Estilos del carousel */
+img.img-circle {
+	width: 160px;
+	height: 160px;	
+}
+
+img.img-circle:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 140, 186, 0.7);
+}
+
+h3 {
+	text-align: left;
+}
+
+/* Estilo mapa */
+#map {
+	height: 100%;
+}

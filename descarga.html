@@ -2,53 +2,72 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Fundamentos Play - Preguntas</title>
-	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"-->
+	<title>Fundamentos Play - Descarga</title>
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mdb.min.css">
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
-	<link type="text/css" rel="stylesheet" href="css/leader.css"/>
-	<link type="text/css" rel="stylesheet" href="css/stylefaq.css"/>
+	<link type="text/css" rel="stylesheet" href="css/descarga.css"/>
 	
 </head>
 <body>
 	
 	<header>
-		<nav class="navbar navbar-inverse navbar-static-top">
-	      <div class="container">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	          <div class="menu-logo">
-	            <div class="navbar-brand">
-	                <span class="navbar-logo">
-	                    <a href="index.html">
-	                         <img id="espolimg" src="http://www.espol.edu.ec/sites/default/files/logo-espol_0_0.png" alt="EspolLogo"">
-	                    </a>
-	                </span>
-	            </div>
-	          </div>	          
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav">
-	            <li><a href="index.html">Inicio</a></li>
-	            <li><a href="noticias.html">Noticias</a></li>
-	            <li><a href="informacion.html">Información</a></li>
-	            <li><a href="tutorial.html">Tutorial</a></li>
-	            <li><a href="leaderboard.html">Leaderboard</a></li>
-	            <li><a href="faq.html">Preguntas Frecuentes</a></li>
-	          </ul>
-	          <ul class="nav navbar-nav navbar-right">
-	            <li><a href="registro.html">Registrarse</a></li>
-	            <li><a href="login.html">Ingresar
-	            	<img id="userimg" src="https://www.trainingzone.co.uk/sites/all/modules/custom/sm_pp_user_profile/img/default-user.png" alt="du"></a></li>
-	          </ul>
-	        </div><!--/.nav-collapse -->
-	      </div>
-    	</nav>
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+		    <!-- Navbar brand -->
+		    <a class="navbar-brand" href="index.html">
+		    	<img id="espolimg" src="http://www.espol.edu.ec/sites/default/files/logo-espol_0_0.png" alt="espolLogo"> Fundamentos Play</a>
+
+		    <!-- Collapse button -->
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+		        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+		    <!-- Collapsible content -->
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+		        <!-- Links -->
+		        <ul class="navbar-nav mr-auto">
+		            <li class="nav-item">
+		                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="noticias.html">Noticias</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="informacion.html">Información</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="tutorial.html">Tutorial</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="leaderboard.html">Leaderboard</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="faq.html">Preguntas frecuentes</a>
+		            </li>		          
+		        </ul>
+
+		        <ul class="navbar-nav ml-auto nav-flex-icons">
+		        	<li class="nav-item">
+		        		<a class="nav-link waves-effect waves-light" href="#">
+		        			Registrarse 
+		        			<i class="fa fa-gear">
+		        			</i>
+		        		</a>
+		        	</li>
+		        	<li class="nav-item">
+		        		<a class="nav-link waves-effect waves-light" href="#">
+		        			Ingresar 
+		        			<i class="fa fa-user">
+		        			</i>
+		        		</a>
+		        	</li>
+		        <!-- Links -->
+		    </div>
+		    <!-- Collapsible content -->
+		</nav>
 			
 		<div class="banner mbr-parallax-background">			
 			<span>
@@ -133,7 +152,7 @@
 	</div>
 
 	<footer>
-        <div class="container-fluid">
+        <div class="container-fluid d-flex justify-content-around">
             <div id="socialLogo" class="col-2 footcol">
                 <img class="footer-img" id="facebookLogo" src="http://www.quirkvwnh.com/wp-content/uploads/2015/03/FB-Icon1.png" alt="Face">
                 <img class="footer-img" id="twitterLogo" src="https://image.flaticon.com/icons/png/512/54/54300.png" alt="twit">
@@ -148,8 +167,9 @@
         </div>
     </footer>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/mdb.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
