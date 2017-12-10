@@ -6,6 +6,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/mdb.min.css">
+	<link rel="stylesheet" href="css/compiled.min.css">	
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
 	<link type="text/css" rel="stylesheet" href="css/descarga.css"/>
 	
@@ -15,7 +16,6 @@
 	<header>
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-
 		    <!-- Navbar brand -->
 		    <a class="navbar-brand" href="index.html">
 		    	<img id="espolimg" src="http://www.espol.edu.ec/sites/default/files/logo-espol_0_0.png" alt="espolLogo"> Fundamentos Play</a>
@@ -29,7 +29,7 @@
 
 		        <!-- Links -->
 		        <ul class="navbar-nav mr-auto">
-		            <li class="nav-item">
+		            <li class="nav-item active">
 		                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 		            </li>
 		            <li class="nav-item">
@@ -68,6 +68,7 @@
 		    </div>
 		    <!-- Collapsible content -->
 		</nav>
+		<!--/.Navbar-->
 			
 		<div class="banner mbr-parallax-background">			
 			<span>
@@ -151,21 +152,53 @@
 		</div>
 	</div>
 
-	<footer>
-        <div class="container-fluid d-flex justify-content-around">
-            <div id="socialLogo" class="col-2 footcol">
-                <img class="footer-img" id="facebookLogo" src="http://www.quirkvwnh.com/wp-content/uploads/2015/03/FB-Icon1.png" alt="Face">
-                <img class="footer-img" id="twitterLogo" src="https://image.flaticon.com/icons/png/512/54/54300.png" alt="twit">
-                <img class="footer-img" id="mailLogo" src="http://www.belenclaver.com/wp-content/uploads/2016/10/mail-512.png" alt="mailicon">
-            </div>
-            <div class="col-8 footcol">
-                <p id="disclaimer">Fundamentos Play<br>© El contenido de esta obra es de propiedad intelectual de .... <br>Todos los derechos reservados. <br>Prohibida su reproducción total o parcial, comunicación pública o distribución sin autorización previa del titular de los derechos</p>
-            </div>
-            <div class="col-2 footcol" id="petLogo">
-                <img id="footerPetLogo" src="img/mascotaLogo.png" alt="footerDron">
-            </div>
-        </div>
-    </footer>
+	<!--Footer-->
+	<footer class="col-12 page-footer unique-color-dark center-on-small-only pt-0 p-0 m-0">
+
+	    <!--Footer Links-->
+	    <div class="container">	       
+
+	        <!--Grid row-->
+	        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+	            <!--Grid column-->
+	            <div class="col-md-8 col-12 mt-5">
+	                <p id="disclaimer">Fundamentos Play<br>© El contenido de esta obra es de propiedad intelectual de .... <br>Todos los derechos reservados. <br>Prohibida su reproducción total o parcial, comunicación pública o distribución sin autorización previa del titular de los derechos.</p>
+
+	            </div>
+	            <!--Grid column-->
+
+	        </div>
+
+	        <div class="row pb-3">
+	            <!--Grid column-->
+	            <div class="col-md-12">
+	                <div class="footer-socials mb-5 flex-center">
+	                    <!--Facebook-->
+	                    <a class="icons-sm fb-ic"><img class="footer-img" id="facebookLogo" src="http://www.quirkvwnh.com/wp-content/uploads/2015/03/FB-Icon1.png" alt="Face" aria-label="Facebook"></a>
+	                    <!--Twitter-->
+	                    <a class="icons-sm tw-ic"><img class="footer-img" id="twitterLogo" src="https://image.flaticon.com/icons/png/512/54/54300.png" alt="twit" aria-label="Twitter"></a>
+	                    <!--Google +-->
+	                    <a class="icons-sm gplus-ic"><img class="footer-img" id="mailLogo" src="http://www.belenclaver.com/wp-content/uploads/2016/10/mail-512.png" alt="mailicon" aria-label="Mail"></a>
+	                </div>
+	            </div>
+	            <!--Grid column-->
+	        </div>
+	        <!--Grid row-->
+
+	    </div>
+	    <!--/Footer Links-->
+
+	    <!--Copyright-->
+	    <div class="footer-copyright">
+	        <div class="container-fluid">
+	            © 2017 Copyright: <a href="index.html"> Fundamentos Play </a>
+	        </div>
+	    </div>
+	    <!--/Copyright-->
+
+	</footer>
+	<!--/Footer-->
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/mdb.min.js"></script>
