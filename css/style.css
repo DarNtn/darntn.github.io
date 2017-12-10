@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Marmelad:400');
 
 body {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	background-color: #CEECF5 !important;
 	overflow: auto;
+	font-family: 'Marmelad', sans-serif;
 }
 
 * {
@@ -20,6 +19,7 @@ body {
 .navbar{
 	background-color:#0B173B;
 	margin-bottom: 0px;
+	font-size: 0.9em;
 }
 
 
@@ -90,15 +90,11 @@ ul, li, .nav, li * {
 	display: block;
 }
 
-/* Footer*/
+/* Footer */
 footer{
-	background-color:#eeeeee !important;
-	text-align: center;
-	vertical-align: middle;
-	position: absolute;
-	padding-top: 2%;
-	clear: both;	
-	height: 150px;
+	/*background-color:#eeeeee;*/
+	margin: 0;
+	font-size: 0.9em;
 }
 
 #facebookLogo, #twitterLogo, #mailLogo {
@@ -121,4 +117,8 @@ footer{
 
 #petLogo {
 	padding-top: 26px;
+}
+
+.item-center {
+	text-align: center;
 }
