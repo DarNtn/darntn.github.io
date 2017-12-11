@@ -98,3 +98,8 @@ footer{
 .item-center {
 	text-align: center;
 }
+
+/* Estilo mapa */
+#map {
+	height: 500px;
+}
