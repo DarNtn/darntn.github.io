@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	background-color: #CEECF5 !important;
 	overflow: auto;
-	font-family: 'Marmelad', sans-serif;
+	font-family: 'Marmelad', sans-serif !important;
 }
 
 * {
@@ -17,9 +17,13 @@ body {
 
 /* Estilo del navbar */
 .navbar{
-	background-color:#0B173B;
+	background-color: rgba(11, 23, 59, 1.0);
 	margin-bottom: 0px;
 	font-size: 0.9em;
+}
+
+.top-nav-collapse {
+	background-color: rgba(11, 23, 59, 0.9);
 }
 
 
@@ -33,7 +37,7 @@ body {
 }
 
 .navbar-collapse {
-	text-align: center;
+	text-align: center;	
 }
 
 ul, li, .nav, li * {
@@ -45,12 +49,6 @@ ul, li, .nav, li * {
 	border:0;
 	height: 2.2em;
 	vertical-align:middle;
-}
-
-#userimg{
-	padding:0.2em;
-	width: auto;
-	height: 100%;
 }
 
 /* Estilos del banner*/
@@ -95,28 +93,6 @@ footer{
 	/*background-color:#eeeeee;*/
 	margin: 0;
 	font-size: 0.9em;
-}
-
-#facebookLogo, #twitterLogo, #mailLogo {
-	width: 30px;
-	padding: 3px 0;
-}
-
-#footerPetLogo {
-	width: 70px;
-	height: auto;
-}
-
-#footerText {
-	padding-top: 12px;
-}
-
-#socialLogo {
-	padding-top: 47px;
-}
-
-#petLogo {
-	padding-top: 26px;
 }
 
 .item-center {

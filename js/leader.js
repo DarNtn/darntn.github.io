@@ -1,20 +1,10 @@
-/*
-$("h3").mouseover(function(){
-    $("h3").css("background-color", "yellow");
-});
-
-document.getElementsByClassName('nombre').addEventListener("mouseover", function(){
-	alert("Será redireccionado a Wikipedia");
-});
-*/
-
 function cargarLeader(){
 	/*carga de jugadores desde leader.json*/
 
     $.getJSON("data/leader.json", function(data) {
         $.each(data, function(key, val) {
             var fila = $('<div></div>');
-            fila.attr('class','row justify-content-center');
+            fila.attr('class','d-flex justify-content-center p-0');
             fila.attr('id','player');
 
             var divImagen = $('<div></div>');
@@ -22,7 +12,7 @@ function cargarLeader(){
             var overlay = $('<div></div>');
             var texto = $('<div></div>');
             divImagen.attr('class','col-sm-3 item-center'); 
-            imagen.attr('class','img-circle');
+            imagen.attr('class','rounded-circle');
             imagen.attr('id','imgLeader');   
             imagen.attr('alt','img'+val["unidad"]);      
             imagen.attr('src',val["imagen"]);
@@ -36,10 +26,10 @@ function cargarLeader(){
             var contenido = $('<div></div>');
             var player = $('<h3></h3>');
             var datos = $('<div></div>');
-            contenido.attr('class','col-sm-8');
-            player.attr('class','milky');
+            contenido.attr('class','col-sm-8 align-self-center');
+            player.attr('class','');
             player.text(val["nombres"]);
-            datos.attr('class','d-flex flex-row');
+            datos.attr('class','d-flex');
             var dias = $('<h4></h4>');
             var tiempo = $('<h4></h4>');
             dias.text(val["dias"]+' días');
@@ -62,7 +52,7 @@ function cargarLeader(){
 }
 
 
-$(window).load(function() {
+$(window).on('load', function() {
 
     cargarLeader();    
 

@@ -6,19 +6,20 @@ function cargarCarousel(){
         $.each(data, function(key, val) {
             var item = $('<div></div>');
             if (val["unidad"]=="1"){
-                item.attr('class','item active');
+                item.attr('class','carousel-item active');
             }else{
-                item.attr('class','item');
+                item.attr('class','carousel-item');
             }            
             var container = $('<div></div>');
-            container.attr('class','container');
+            container.attr('class','d-flex w-100 h-100 justify-content-center');
             var caption = $('<div></div>');
-            caption.attr('class','carousel-caption');
+            caption.attr('class','carousel-caption d-none d-md-block');
 
-            var unidad = $('<h1></h1>');
+            var unidad = $('<h2></h2>');
             unidad.text('Unidad '+val["unidad"]);
             var contenido = $('<div></div>');
-            contenido.attr('class','col-12');
+            contenido.attr('class','d-flex w-100 justify-content-center align-self-center');
+            contenido.attr('id','datos');
             var boton = $('<a></a>');
             boton.attr('class','btn btn-lg btn-primary');
             boton.attr('href','leaderboard.html');
@@ -27,17 +28,17 @@ function cargarCarousel(){
 
             var divImagen = $('<div></div>');
             var imagen = $('<img></img>');
-            divImagen.attr('class','col-4'); 
-            imagen.attr('class','img-circle');
+            divImagen.attr('class','p-3'); 
+            imagen.attr('class','rounded-circle');            
             imagen.attr('alt','img'+val["unidad"]);      
             imagen.attr('src',val["imagen"]);
             divImagen.append(imagen);
 
 
             var divDatos = $('<div></div>');
-            divDatos.attr('class','col-7'); 
+            divDatos.attr('class','p-3 align-self-center'); 
 
-            var player = $('<h3></h3>');
+            var player = $('<h2></h2>');
             player.attr('id','name');
             player.text(val["nombres"]);
             var dias = $('<h3></h3>');
@@ -50,12 +51,11 @@ function cargarCarousel(){
 
             contenido.append(divImagen);
             contenido.append(divDatos); 
+            caption.append(unidad);            
+            //caption.append($('<p></p>').append(boton));
 
-            caption.append(unidad);
-            caption.append(contenido);
-            caption.append($('<p></p>').append(boton));
-
-            container.append(caption);
+            container.append(contenido);
+            
             /*
             var slideicon = $('<img></img>');
             slideicon.attr('class','first-slide');
@@ -64,6 +64,7 @@ function cargarCarousel(){
 
             item.append(slideicon);*/
             item.append(container);
+            item.append(caption);
             
             $('#itemsCarousel').append(item);
         });
@@ -71,7 +72,7 @@ function cargarCarousel(){
 }
 
 
-$(window).load(function() {
+$(window).on('load', function() {
 
     cargarCarousel();    
 

@@ -1,0 +1,23 @@
+.banner {
+	height: 100px;
+}
+
+#title {
+	color: #0B173B;
+	margin-top: 0px;
+	margin-left: 10%;
+	margin-bottom: 0px;
+	padding-top: 0.8em;
+}
+
+img.logo {
+	height: 180px;
+	margin-left: 2%;
+}
+
+h2#title-faq {
+	margin-top: 60px;
+	margin-left: 10%;
+	font-size: 3em;
+	text-shadow: 1px 1px 1px grey;
+}

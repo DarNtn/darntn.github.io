@@ -1,29 +1,10 @@
 
-#mascotaLogo{
-	width:10%;
-	padding:0.5em;
-	padding-left: 5em;
-	float:left;
-	clear:both;
-}
-
 #content{
 	display:inline-block;
 }
 
 
 /*preguntas frecuentes*/
-h2#title-faq {
-	margin-top: 60px;
-	margin-left: 10%;
-	font-size: 3em;
-	text-shadow: 2px 2px 2px grey;
-}
-
-img.logo {
-	height: 180px;
-	margin-left: 2%;
-}
 
 div.seccion-preguntas {
 	border: solid 1px;
