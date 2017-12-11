@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fundamentos Play</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/actividad-reciente.css">
+        <link rel="stylesheet" href="css/basic-profesor.css">
+        <link rel="stylesheet" href="css/preguntas.css">
+        <link rel="stylesheet" href="css/estiloEstadisticas.css">
+
+    </head>
+    <body>
+		<header>
+            <div class="container-fluid navbar" >
+
+                <div class="col-sm-1" >
+                    <figure>
+                        <img id="navlogo" src="http://www.espol.edu.ec/sites/default/files/logo-espol_0_0.png" alt="EspolLogo"/>
+                    </figure>
+                </div>
+                <div class="col-sm-11" id="nombre-section" >
+                    <a  href="#">Eduardo Cruz [Profesor]</a>
+                </div>
+
+            </div>
+        </header>
+        
+		<div class="side-menu container col-sm-3 col-xs-4">
+            <!--aqui va el menu-->
+			<div class="sidebarStyle">
+				<div class="text-xs-center text-sm-left ">			
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>  Preguntas</a></li>
+						<li id="aprobarP"><a href="#" class="menu-option"><span class="glyphicon glyphicon-ok"></span > Aprobar preguntas <span class="badge">5</span></a></li>
+						<li id="corregirP"><a href="#" class="menu-option"><span class="glyphicon glyphicon-pencil"></span> Corregir preguntas <span class="badge">6</span></a></li>
+						<li id="crearP"><a href="#" class="menu-option"><span class="glyphicon glyphicon-plus"></span> Crear pregunta </a></li>
+						<li id="borradorP"><a href="#" class="menu-option"><span class="glyphicon glyphicon-file"></span> Borradores </a></li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span>  Usuarios</a></li>
+						<li><a href="profesor_aprobar_usuarios.html" class="menu-option"><span class="glyphicon glyphicon-thumbs-up"></span>  Aprobar usuarios <span class="badge">5</span></a></li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-stats"></span>  Estadísitcas</a></li>
+						<li id="estadisticaU"><a href="#" class="menu-option"><span class="glyphicon glyphicon-stats"></span>  Estadísticas de usuarios</a></li>
+						<li id="estadisticaP"><a href="#" class="menu-option"><span class="glyphicon glyphicon-stats"></span>  Estadísticas de preguntas</a></li>
+					</ul>
+				</div>
+			</div>
+        </div>
+
+        
+      
+		<div class="principal container col-sm-9 col-xs-8">
+	   
+			<section class="activitiesbox">
+				<h2>Actividad reciente</h2>
+						<!--Aquí van las actividades leidas del json-->
+			</section>
+
+			<section id="preguntasAprobar" hidden>
+
+				<h2>Aprobar preguntas</h2>
+				<div id="contenedorAprobar" class="container-fluid">
+					<div id="contenedorPreguntas" class="row">
+
+						<div id="preguntaYautor" class="col-sm-8">
+							<h4 id="pregunta">Modelo de pregunta</h4>
+							<p id="autor">John Aldo Cuesta Agila</p>
+						</div>
+						<div id="fechaPregunta" class="col-sm-2">
+							<h4 id="tituloFecha">Fecha</h4>
+							<p id="fecha">12 de dic</p>
+						</div>
+						<button id="btnAprobar" type="button" class="btn btn-default botonPregunta" aria-label="Left Align">
+							<span id="si" class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+						</button>
+						<button id="btnRechazar" type="button" class="btn btn-default botonPregunta" aria-label="Left Align">
+							<span id="no" class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+						</button>
+
+					</div>
+				</div>
+			</section>
+
+			<section id="preguntasCorregir" hidden>
+				<h2>Corregir preguntas</h2>
+				<div id="contenedorCorregir" class="container-fluid">
+					<div id="contenedorPreguntas">
+
+						<div id="accordionPreguntas" class="panel-group" role="tablist" aria-multiselectable="true">
+		  					<div class="panel panel-default">
+		    					<div class="panel-heading" role="tab" id="1">
+		      						<h4 class="panel-title">
+		        						<a class="collapsed aOpciones" role="button" data-toggle="collapse" data-parent="#accordionPreguntas" href="#c1" aria-expanded="false" aria-controls="c1">
+		          							Modelo pregunta
+		        						</a>
+		      						</h4>
+		    					</div>
+		    					<div id="c1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="1">
+		      						<div class="panel-body">
+		      							<textarea class="form-control" rows="5"></textarea>
+		      							<button type="button" class="btn btn-default btn-lg guardar">
+		  									<span id="guardar1" class="textoGuardar glyphicon glyphicon-floppy-disk" aria-hidden="true"> Guardar</span>
+										</button>
+		      						</div>
+		    					</div>
+		  					</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section id="preguntasCrear" hidden>
+				<h2>Crear preguntas</h2>
+				<div id="contenedorPreguntas" class="container-fluid">
+					<div id="contenedorCrear">
+
+						<h4>Pregunta</h4>
+						<textarea class="form-control" style="margin-bottom: 10px;" rows="5"></textarea>
+						<h4 id="R1">Respuesta 1</h4>
+						<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+						<h4 id="R2">Respuesta 2</h4>
+						<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+						<h4 id="R3">Respuesta 3</h4>
+						<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+						<h4 id="R4">Respuesta 4</h4>
+						<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+		      			<button type="button" class="btn btn-default btn-lg guardar">
+		  					<span id="guardarCrear" class="textoGuardar glyphicon glyphicon-floppy-disk" aria-hidden="true"> Guardar</span>
+						</button>
+						<button type="button" class="btn btn-default btn-lg">
+		  					<span id="guardarBorrador" class="textoGuardar glyphicon glyphicon-file" aria-hidden="true"> Borrador</span>
+						</button>
+
+					</div>
+				</div>
+			</section>
+
+			<section id="preguntasBorrador" hidden>
+				<h2>Borrador</h2>
+				<div id="contenedorBorrador" class="container-fluid">
+					<div id="contenedorPreguntas">
+
+						<div class="panel-group" id="accordionPreguntas" role="tablist" aria-multiselectable="true">
+		  					<div class="panel panel-default">
+		    					<div class="panel-heading" role="tab" id="b1">
+		      						<h4 class="panel-title">
+		        						<a class="collapsed aOpciones" role="button" data-toggle="collapse" data-parent="#accordionPreguntas" href="#cb1" aria-expanded="false" aria-controls="cb1">
+		          							Modelo pregunta
+		        						</a>
+		      						</h4>
+		    					</div>
+		    					<div id="cb1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="b1">
+		      						<div class="panel-body">
+		      							<textarea class="form-control" style="margin-bottom: 10px;" rows="5"></textarea>
+		      							<h4 id="rb1">Respuesta 1</h4>
+										<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+										<h4 id="rb2">Respuesta 2</h4>
+										<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+										<h4 id="rb3">Respuesta 3</h4>
+										<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+										<h4 id="rb4">Respuesta 4</h4>
+										<textarea class="form-control" style="margin-bottom: 10px;" rows="2"></textarea>
+										<button type="button" class="btn btn-default btn-lg guardar">
+		  									<span id="guardarBorrador" class="textoGuardar glyphicon glyphicon-floppy-disk" aria-hidden="true"> Guardar</span>
+										</button>
+		      							<button type="button" class="btn btn-default btn-lg">
+		  									<span id="btnAprobarborrador" class="textoGuardar glyphicon glyphicon-ok" aria-hidden="true"> Publicar</span>
+										</button>
+										<button type="button" class="btn btn-default btn-lg">
+		  									<span id="btnRechazarborrador" class="textoGuardar glyphicon glyphicon-remove" aria-hidden="true"> Descartar</span>
+										</button>
+		      						</div>
+		    					</div>
+		  					</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section id="estadisticaUsuario" hidden>
+				<h2>Estadísticas de usuarios</h2>
+					<div id="contenedorEstudiantes" class="container-fluid">
+						<div id="contenedorPreguntas">
+							
+							<div id="accordionEstudiantes" class="panel-group" role="tablist" aria-multiselectable="true">
+			  					<div class="panel panel-default">
+			    					<div class="panel-heading" role="tab" id="e1">
+			      						<h4 class="panel-title">
+			        						<a class="collapsed aOpciones" role="button" data-toggle="collapse" data-parent="#accordionEstudiantes" href="#ce1" aria-expanded="false" aria-controls="ce1">
+			          							John Cuesta
+			        						</a>
+			      						</h4>
+			    					</div>
+			    					<div id="ce1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="e1">
+			      						<div class="panel-body">
+
+			      							<div class="row">
+												<div id="barra1" class="barraUsuario" style="padding-top: 240px">
+													<p id="mesCalificacion">Unidad 1</p>
+													<p id="mesCalificacion">6/10</p>
+												</div>
+												<div id="barra2" class="barraUsuario" style="padding-top: 360px">
+													<p id="mesCalificacion">Unidad 2</p>
+													<p id="mesCalificacion">9/10</p>
+												</div>
+												<div id="barra3" class="barraUsuario" style="padding-top: 320px">
+													<p id="mesCalificacion">Unidad 3</p>
+													<p id="mesCalificacion">8/10</p>
+												</div>
+												<div id="barra4" class="barraUsuario" style="padding-top: 240px">
+													<p id="mesCalificacion">Unidad 4</p>
+													<p id="mesCalificacion">6/10</p>
+												</div>
+												<div id="barra5" class="barraUsuario" style="padding-top: 280px">
+													<p id="mesCalificacion">Unidad 5</p>
+													<p id="mesCalificacion">7/10</p>
+												</div>
+												<div id="barra6" class="barraTotal" style="padding-top: 288px">
+													<p id="mesCalificacion">Nota</p>
+													<p id="mesCalificacion">7.2/10</p>
+												</div>
+											</div>
+			      							
+			      						</div>
+			    					</div>
+			  					</div>
+							</div>
+
+						</div>
+					</div>
+			</section>
+
+			<section id="estadisticaPregunta" hidden>
+				<h2>Estadísticas de preguntas</h2>
+				<div id="estPregunta">
+					<div id="contenedorPreguntas" class="row">
+						<div id="ePregunta">
+							<h4>Pregunta 1</h4>
+							<div id="barra" class="barraPregunta" style="padding-top: 280px">
+								<p id="mesCalificacion">Acierto</p>
+								<p id="mesCalificacion">70%</p>
+							</div>
+						</div>
+						<div id="ePregunta">
+							<h4>Pregunta 2</h4>
+							<div id="barra" class="barraPregunta" style="padding-top: 240px">
+								<p id="mesCalificacion">Acierto</p>
+								<p id="mesCalificacion">60%</p>
+							</div>
+						</div>
+						<div id="ePregunta">
+							<h4>Pregunta 3</h4>
+							<div id="barra" class="barraPregunta" style="padding-top: 160px">
+								<p id="mesCalificacion">Acierto</p>
+								<p id="mesCalificacion">40%</p>
+							</div>
+						</div>
+						<div id="ePregunta">
+							<h4>Pregunta 4</h4>
+							<div id="barra" class="barraPregunta" style="padding-top: 348px">
+								<p id="mesCalificacion">Acierto</p>
+								<p id="mesCalificacion">87%</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</div>
+
+
+        <!-- Javascript -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/retina-1.1.0.min.js"></script>
+        <script src="js/scripts.js"></script>
+		<!-- Actividades.js-->		
+		<script src="js/actividades.js"></script>
+		<script src="js/aprobarPreguntas.js"></script>
+		<script src="js/corregirPreguntas.js"></script>
+		<script src="js/borradorPreguntas.js"></script>
+		<script src="js/estaditicasEstudiante.js"></script>
+		<script src="js/mostrar1.js"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+
+    </body>
+</html>
