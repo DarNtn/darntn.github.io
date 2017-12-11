@@ -95,8 +95,22 @@
 		</div>
 	</div>
 
-	<div class="container" id="info">		
-		
+	<div class="container" id="info">	
+		<div class="container">
+			<article>
+				<h3>Acerca de Fundamentos Play</h3>
+				<p>
+					Fundamentos Play es un juego de preguntas y respuestas destinado a los estudiantes de la materia fundamentos de programación con el ayudar de manera didáctica al aprendizaje.
+				</p>
+			</article>
+			<article>
+				<h3>¿De dónde nos visitan?</h3>
+				<p>
+					Aquí se visualizaran las ubicaciones de donde se ha accedido para descargar el juego.
+				</p>
+			</article>
+		</div>	
+		<div id="map"></div>
 	</div>
 
 	<!--Footer-->
@@ -160,7 +174,11 @@
     <!-- Jarallax -->
     <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
     <script type="text/javascript" src="js/jarallax.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>   
+    <script type="text/javascript" src="js/script.js"></script> 
+    <script type="text/javascript" src="js/info.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdX2avwF_aEKtnQq0yrKWZuzfKI2h-jQc&callback=initMap">
+    </script>
 	
 </body>
 </html>
