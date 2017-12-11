@@ -4,21 +4,21 @@ function cargarLeader(){
     $.getJSON("data/leader.json", function(data) {
         $.each(data, function(key, val) {
             var fila = $('<div></div>');
-            fila.attr('class','d-flex justify-content-center p-0');
+            fila.attr('class','d-flex justify-content-around p-0');
             fila.attr('id','player');
 
             var divImagen = $('<div></div>');
             var imagen = $('<img></img>');
             var overlay = $('<div></div>');
             var texto = $('<div></div>');
-            divImagen.attr('class','col-sm-3 item-center'); 
+            divImagen.attr('class','col-sm-3 item-center pt-3'); 
             imagen.attr('class','rounded-circle');
             imagen.attr('id','imgLeader');   
             imagen.attr('alt','img'+val["unidad"]);      
             imagen.attr('src',val["imagen"]);
             overlay.attr('class','overlay');
             texto.attr('class','text');
-            texto.text('UNIDAD '+val["unidad"]);
+            texto.text('NIVEL '+val["unidad"]);
             overlay.append(texto);
             divImagen.append(imagen);
             

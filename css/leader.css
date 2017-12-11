@@ -97,3 +97,8 @@ body {
 .dias, .tiempo {
 	color: #999999;
 }
+
+/* Responsivo */
+@media (max-width: 640px){
+  
+}

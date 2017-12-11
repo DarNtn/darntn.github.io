@@ -6,14 +6,15 @@
 
 /*preguntas frecuentes*/
 
-div.seccion-preguntas {
+div#seccion-preguntas {
 	border: solid 1px;
-	margin: 30px;
+	/*margin: 30px;*/
 	padding: 1%;
+	margin: 2px 25px;
 	background-color: white;
 }
 
-div#contenedor-pregunta {
+div.contenedor-pregunta {
 	margin-top: 3%;
 	margin-left: 2%;
 	margin-right: 5%;
@@ -28,7 +29,7 @@ div#contenedor-pregunta {
 	box-shadow: 3px 3px 5px grey;
 }
 
-div#contenedor-respuesta {
+div.contenedor-respuesta {
 	margin-top: 1%;
 	margin-right: 2%;
 	margin-left: 5%;
