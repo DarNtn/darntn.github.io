@@ -16,7 +16,7 @@ body {
 }
 
 /* Estilo del navbar */
-.navbar{
+.navbar, .modalTheme{
 	background-color: rgba(11, 23, 59, 1.0);
 	margin-bottom: 0px;
 	font-size: 0.9em;
@@ -62,15 +62,18 @@ ul, li, .nav, li * {
 
 /* Estilo en barra de busqueda - banner */
 #barraBuscar {
+	color: white;
 	margin:2em;
 	float:right;
     width: 150px;
     -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;    
 }
 
 #barraBuscar:focus{
     width: 20%;
+    background-color: white;
+    color: black;
 }
 
 /* Titulo de la aplicacion mostrado en el banner */

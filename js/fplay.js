@@ -16,7 +16,7 @@ function cargarCarousel(){
             caption.attr('class','carousel-caption d-none d-md-block');
 
             var unidad = $('<h2></h2>');
-            unidad.text('Unidad '+val["unidad"]);
+            unidad.text('Nivel '+val["unidad"]);
             var contenido = $('<div></div>');
             contenido.attr('class','d-flex w-100 justify-content-center align-self-center');
             contenido.attr('id','datos');
