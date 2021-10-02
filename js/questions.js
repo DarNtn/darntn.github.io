@@ -1,3 +1,4 @@
+var datos;
 function cargarPreguntas(){
 	$(".card").click(function(){
         loadModal();
@@ -8,6 +9,9 @@ function cargarPreguntas(){
     });
 
     $.getJSON("data/questions.json", function(data) {
+        datos = data;
+        console.log(data);
+        /*
         $.each(data, function(key, val) {
             var fila = $('<div></div>');
             fila.attr('class','d-flex justify-content-around p-0');
@@ -54,6 +58,7 @@ function cargarPreguntas(){
             
             $('#leaderboard').append(fila);
         });
+        */
     });
 }
 
