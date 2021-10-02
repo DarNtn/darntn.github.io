@@ -18,7 +18,7 @@ function cargarPreguntas(){
         datos = data;
         console.log(data);
         
-        var rows;
+        var rows = {};
         $.each(data, function(key, val) {
             var fila = $('<th>'+val["libro"]+'</th>');
             fila.addClass("text-center font-weight-bold text-uppercase");
