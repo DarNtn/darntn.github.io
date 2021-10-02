@@ -2,7 +2,7 @@ var datos;
 function cargarPreguntas(){
 
     $(document).on('click', '.card', function(){
-        loadModal(this);
+        loadModal($(this));
     });
 
     $("#btn_respuesta").click(function(){
