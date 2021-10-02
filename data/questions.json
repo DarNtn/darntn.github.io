@@ -1,58 +1,116 @@
 [
     {    
-        "libro": "Génesis",
+        "libro": "NOE",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "p1 gen",
-                    "respuesta": "r1 gen"
+                    "pregunta": "¿QUIÉNES ENTRARON EN EL ARCA? ",
+                    "respuesta": "NOÉ Y SU FAMILIA"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "¿POR QUÉ DIOS ENVIÓ UN DILUVIO SOBRE LA TIERRA?",
+                    "respuesta": "CASTIGO POR LA MALDAD"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "¿CÓMO SE LLAMA EL MONTE DONDE REPOSÓ EL ARCA LUEGO DEL DILUVIO?",
+                    "respuesta": "ARARAT"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "¿CUÁNTOS DÍAS DURÓ EL DILUVIO Y A LOS CUÁNTOS DÍAS REPOSÓ EL ARCA EN TIERRA?",
+                    "respuesta": "40 DÍAS Y 40 NOCHES, 150 DÍAS"
                 }
             ]
         }
     },
     {
-        "libro": "Éxodo",
+        "libro": "ESTER",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "¿Que parentezco tenía ESTER con MARDOQUEO?",
+                    "respuesta": "PRIMOS"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "p2 exo",
-                    "respuesta": "r2 exo"
+                    "pregunta": "¿CÓMO MURIÓ AMÁN?",
+                    "respuesta": "AHORCADO"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "¿QUIÉN DESOBEDECIÓ AL MANDATO DEL REY?",
+                    "respuesta": "LA REINA VASTI"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "¿CÓMO SE LLAMABA EL PADRE DE ESTER?",
+                    "respuesta": "ABIHAIL"
+                }
+            ]
+        }
+    },
+    {
+        "libro": "DAVID",
+        "preguntas": {
+            "10": [
+                {
+                    "pregunta": "¿Quién era el mejor amigo de David?",
+                    "respuesta": "Jonathan"
+                }
+            ],
+            "30": [
+                {
+                    "pregunta": "¿Qué instrumento tocaba David para que el Rey Saúl se tranquilizara?",
+                    "respuesta": "Arpa"
+                }
+            ],
+            "50": [
+                {
+                    "pregunta": "¿Cómo se llamaba el padre de David?",
+                    "respuesta": "Isaí"
+                }
+            ],
+            "70": [
+                {
+                    "pregunta": "¿Cuántos años reinó David sobre Israel?",
+                    "respuesta": "40 años"
+                }
+            ]
+        }
+    },
+    {
+        "libro": "TIMOTEO",
+        "preguntas": {
+            "10": [
+                {
+                    "pregunta": "¿TIMOTEO FUE DE DISCÍPULO DE..?",
+                    "respuesta": "PABLO"
+                }
+            ],
+            "30": [
+                {
+                    "pregunta": "¿CÓMO SE LLAMABA LA MADRE DE TIMOTEO?",
+                    "respuesta": "EUNICE"
+                }
+            ],
+            "50": [
+                {
+                    "pregunta": "¿CÓMO SE LLAMABA LA ABUELA DE TIMOTEO?",
+                    "respuesta": "LOIDA"
+                }
+            ],
+            "70": [
+                {
+                    "pregunta": "¿CUÁL ES EL PRIMER CONSEJO QUE LE DA PABLO A TIMOTEO?",
+                    "respuesta": "QUE AVIVE EL FUEGO DEL DON DE DIOS"
                 }
             ]
         }
