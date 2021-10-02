@@ -43,12 +43,14 @@ function cargarPreguntas(){
 }
 
 function getLibro(name){
+    var libro = null;
     $.each(datos, function(k,v){
         if (v["libro"] == name){
-            return v;
+            libro = v;
+            return;
         }
     });
-    return null;
+    return libro;
 }
 
 function loadModal(obj){
