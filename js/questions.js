@@ -55,8 +55,8 @@ function loadModal(obj){
     $("#blockRespuesta").hide();
     $("#puntos").text(obj.attr("puntos"));
     var l = getLibro(obj.attr("libro"));
-    $("#pregunta").text(l[obj.attr("puntos")][0]["pregunta"]);
-    $("#respuesta").text(l[obj.attr("puntos")][0]["respuesta"]);
+    $("#pregunta").text(l["preguntas"][obj.attr("puntos")][0]["pregunta"]);
+    $("#respuesta").text(l["preguntas"][obj.attr("puntos")][0]["respuesta"]);
     $("#modalQuestion").modal("show");
 }
 
