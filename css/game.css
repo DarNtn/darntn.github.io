@@ -1,0 +1,19 @@
+.card {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card:hover{
+    opacity: 1;
+    background-color: green !important;
+}
+
+.card:hover > img {
+    opacity: 0.6;
+}
+
+.title-point{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}

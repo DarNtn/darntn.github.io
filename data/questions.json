@@ -1,0 +1,60 @@
+[
+    {    
+        "libro": "Génesis",
+        "preguntas": {
+            "10": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ],
+            "30": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ],
+            "50": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ],
+            "70": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ]
+        }
+    },
+    {
+        "libro": "Éxodo",
+        "preguntas": {
+            "10": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ],
+            "30": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ],
+            "50": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ],
+            "70": [
+                {
+                    "pregunta": "",
+                    "respuesta": ""
+                }
+            ]
+        }
+    }
+]
