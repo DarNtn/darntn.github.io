@@ -1,7 +1,7 @@
 
 body {
     background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(206, 236, 245, 0.9) ), url(https://static.wixstatic.com/media/44be5e_28ab62da68c74091afb9b7b88f25c00a~mv2.png);
-    background-repeat: round;
+    background-repeat: repeat;
 }
 
 .card {

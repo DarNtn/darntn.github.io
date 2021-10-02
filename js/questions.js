@@ -1,6 +1,7 @@
 var datos;
 function cargarPreguntas(){
-	$(".card").click(function(){
+
+    $(document).on('click', '.card', function(){
         loadModal(this);
     });
 
@@ -10,7 +11,7 @@ function cargarPreguntas(){
 
     var imgQ = $("<img>").attr("src", "img/questioncard.png").attr("class","card-img");
     var card = $("<div></div>").attr("class","card");
-    var containerQ = $("<div></div>").attr("class","col-2 p-1");
+    var containerQ = $("<td></td>").attr("class","col-2 p-1");
     card.append(imgQ);
 
     $.getJSON("data/questions.json", function(data) {
