@@ -1,7 +1,7 @@
 var datos;
 function cargarPreguntas(){
 
-    $(document).on('click', '.card', function(){
+    $(document).on('click', '.card.activa', function(){
         loadModal($(this));
     });
 
@@ -10,7 +10,7 @@ function cargarPreguntas(){
     });
 
     var imgQ = $("<img>").attr("src", "img/questioncard.png").attr("class","card-img");
-    var card = $("<div></div>").attr("class","card");
+    var card = $("<div></div>").attr("class","card activa");
     var containerQ = $("<td></td>").attr("class","col-2 p-1");
     card.append(imgQ);
 
@@ -54,6 +54,8 @@ function getLibro(name){
 }
 
 function loadModal(obj){
+    obj.removeClass("activa");
+    obj.addClass("inactiva");
     $("#blockRespuesta").hide();
     $("#puntos").text(obj.attr("puntos"));
     var l = getLibro(obj.attr("libro"));

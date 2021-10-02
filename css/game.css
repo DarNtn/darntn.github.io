@@ -9,13 +9,22 @@ body {
     cursor: pointer;
 }
 
-.card:hover{
+.card.activa:hover{
     opacity: 1;
     background-color: green !important;
 }
 
-.card:hover > img {
+.card.activa:hover > img {
     opacity: 0.6;
+}
+
+.card.inactiva > img{
+    opacity: 0.5;
+}
+
+.card.inactiva {
+    opacity: 1;
+    background-color: black;
 }
 
 .title-point{
