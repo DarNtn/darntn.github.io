@@ -4,8 +4,8 @@
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "p1 gen",
+                    "respuesta": "r1 gen"
                 }
             ],
             "30": [
@@ -39,8 +39,8 @@
             ],
             "30": [
                 {
-                    "pregunta": "",
-                    "respuesta": ""
+                    "pregunta": "p2 exo",
+                    "respuesta": "r2 exo"
                 }
             ],
             "50": [
