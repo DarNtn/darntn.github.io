@@ -1,118 +1,118 @@
 [
     {    
-        "libro": "NOE",
+        "libro": "ABRAHAM",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿QUIÉNES ENTRARON EN EL ARCA? ",
-                    "respuesta": "NOÉ Y SU FAMILIA"
-                }
-            ],
-            "30": [
-                {
-                    "pregunta": "¿POR QUÉ DIOS ENVIÓ UN DILUVIO SOBRE LA TIERRA?",
-                    "respuesta": "CASTIGO POR LA MALDAD"
-                }
-            ],
-            "50": [
-                {
-                    "pregunta": "¿CÓMO SE LLAMA EL MONTE DONDE REPOSÓ EL ARCA LUEGO DEL DILUVIO?",
-                    "respuesta": "ARARAT"
+                    "pregunta": "¿CÓMO SE LO CONOCE A ABRAHAM?",
+                    "respuesta": "EL PADRE DE LA FÉ"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿CUÁNTOS DÍAS DURÓ EL DILUVIO Y A LOS CUÁNTOS DÍAS REPOSÓ EL ARCA EN TIERRA?",
-                    "respuesta": "40 DÍAS Y 40 NOCHES, 150 DÍAS"
+                    "pregunta": "¿A QUÉ LUGAR ENVIÓ DIOS A ABRAHAM PARA SACRIFICAR A SU HIJO ISAAC?",
+                    "respuesta": "MORIAH"
+                }
+            ],
+            "50": [
+                {
+                    "pregunta": "¿QUÉ EDAD TENÍA ABRAHAM CUANDO NACIÓ SU HIJO ISAAC?",
+                    "respuesta": "100 AÑOS"
+                }
+            ],
+            "30": [
+                {
+                    "pregunta": "¿CUÁL FUE LA SEÑAL DEL PACTO ENTRE DIOS Y LA DESCENDENCIA DE ABRAHAM?",
+                    "respuesta": "CIRCUNCIDAR A TODO VARON A LOS 8 DÍAS DE NACIDO"
                 }
             ]
         }
     },
-    {
-        "libro": "ESTER",
+	{    
+        "libro": "JOSÉ",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿Que parentezco tenía ESTER con MARDOQUEO?",
-                    "respuesta": "PRIMOS"
+                    "pregunta": "¿QUÉ LE REGALÓ JACOB QUE CAUSÓ ENVIDIA EN SUS HERMANOS?",
+                    "respuesta": "UNA TÚNICA DE COLORES"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "¿CÓMO MURIÓ AMÁN?",
-                    "respuesta": "AHORCADO"
+                    "pregunta": "¿A QUÉ EDAD FUE VENDIDO COMO ESCLAVO?",
+                    "respuesta": "17 AÑOS"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "¿QUIÉN DESOBEDECIÓ AL MANDATO DEL REY?",
-                    "respuesta": "LA REINA VASTI"
+                    "pregunta": "¿CUÁL FUE UNO DE LOS SUEÑOS DEL FARAÓN Y SU INTERPRETACIÓN?",
+                    "respuesta": "1.SUEÑO DE LAS 7 VACAS GORDAS Y 7 VACAS FLACAS. 2.SUEÑO DE LAS 7 ESPIGAS BUENAS Y 7 ESPIGAS MALAS. SIMBOLIZAN 7 AÑOS DE ABUNDANCIA Y 7 AÑOS DE ESCASEZ"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿CÓMO SE LLAMABA EL PADRE DE ESTER?",
-                    "respuesta": "ABIHAIL"
+                    "pregunta": "¿QUÉ NOMBRE LE PUSO EL FARAÓN A JOSÉ?",
+                    "respuesta": "ZAFNAT-PANEA"
                 }
             ]
         }
     },
-    {
-        "libro": "DAVID",
+	{    
+        "libro": "PEDRO",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿Quién era el mejor amigo de David?",
-                    "respuesta": "Jonathan"
+                    "pregunta": "¿QUÉ OFICIO DESEMPEÑABA?",
+                    "respuesta": "PESCADOR"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "¿Qué instrumento tocaba David para que el Rey Saúl se tranquilizara?",
-                    "respuesta": "Arpa"
+                    "pregunta": "¿QUÉ SIGNIFICA EL NOMBRE PEDRO?",
+                    "respuesta": "ROCA"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "¿Cómo se llamaba el padre de David?",
-                    "respuesta": "Isaí"
+                    "pregunta": "¿QUÉ HECHO OCURRIÓ AFUERA DEL TEMPLO LA HERMOSA?",
+                    "respuesta": "UN COJO QUE PEDÍA LIMOSNA FUE SANADO"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿Cuántos años reinó David sobre Israel?",
-                    "respuesta": "40 años"
+                    "pregunta": "¿A DÓNDE FUÉ DESPUÉS DE QUE UN ÁNGEL LO LIBRARA DE LAS MANOS DEL REY HERODES?",
+                    "respuesta": "A CASA DE MARÍA, LA MADRE DE JUAN (MARCOS)"
                 }
             ]
         }
     },
-    {
-        "libro": "TIMOTEO",
+	{    
+        "libro": "PABLO",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿TIMOTEO FUE DE DISCÍPULO DE..?",
-                    "respuesta": "PABLO"
+                    "pregunta": "¿CUÁL FUÉ SU NOMBRE REAL?",
+                    "respuesta": "SAULO"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "¿CÓMO SE LLAMABA LA MADRE DE TIMOTEO?",
-                    "respuesta": "EUNICE"
-                }
-            ],
-            "50": [
-                {
-                    "pregunta": "¿CÓMO SE LLAMABA LA ABUELA DE TIMOTEO?",
-                    "respuesta": "LOIDA"
+                    "pregunta": "¿JUNTO A QUÉ APOSTOL REALIZÓ SU PRIMER VIAJE MISIONERO?",
+                    "respuesta": "BERNABÉ"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿CUÁL ES EL PRIMER CONSEJO QUE LE DA PABLO A TIMOTEO?",
-                    "respuesta": "QUE AVIVE EL FUEGO DEL DON DE DIOS"
+                    "pregunta": "¿A QUIÉN USÓ DIOS PARA QUE PABLO RECOBRE LA VISTA?",
+                    "respuesta": "ANANÍAS"
+                }
+            ],
+            "50": [
+                {
+                    "pregunta": "¿CUÁL ERA EL OFICIO DE PABLO?",
+                    "respuesta": "HACER TIENDAS"
                 }
             ]
         }
-    }
+    },
 ]
