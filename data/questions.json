@@ -1,116 +1,116 @@
 [
     {    
-        "libro": "ABRAHAM",
+        "libro": "A",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿CÓMO SE LO CONOCE A ABRAHAM?",
-                    "respuesta": "EL PADRE DE LA FÉ"
+                    "pregunta": "¿Cuáles son los 3 primeros libros de la Biblia?",
+                    "respuesta": "Génesis, Éxodo y Levítico"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿A QUÉ LUGAR ENVIÓ DIOS A ABRAHAM PARA SACRIFICAR A SU HIJO ISAAC?",
-                    "respuesta": "MORIAH"
+                    "pregunta": "¿A quién obligaron a llevar la cruz de Jesús?",
+                    "respuesta": "Simón de Cirene. Marcos 15:21"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "¿QUÉ EDAD TENÍA ABRAHAM CUANDO NACIÓ SU HIJO ISAAC?",
-                    "respuesta": "100 AÑOS"
+                    "pregunta": "¿A qué tribu Jehová apartó para llevar el arca del pacto y guiar al pueblo en la adoración a Dios?",
+                    "respuesta": "tribu de Leví.  Deuteronomio 10:8"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "¿CUÁL FUE LA SEÑAL DEL PACTO ENTRE DIOS Y LA DESCENDENCIA DE ABRAHAM?",
-                    "respuesta": "CIRCUNCIDAR A TODO VARON A LOS 8 DÍAS DE NACIDO"
+                    "pregunta": "¿Cuál fue el primer milagro de Jesús?",
+                    "respuesta": "Convirtió el agua en vino. Juan 2:9-11"
                 }
             ]
         }
     },
 	{    
-        "libro": "JOSÉ",
+        "libro": "B",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿QUÉ LE REGALÓ JACOB QUE CAUSÓ ENVIDIA EN SUS HERMANOS?",
-                    "respuesta": "UNA TÚNICA DE COLORES"
+                    "pregunta": "¿Quién fue la mamá de Samuel?",
+                    "respuesta": "Ana. 1 Samuel 1:20"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "¿A QUÉ EDAD FUE VENDIDO COMO ESCLAVO?",
-                    "respuesta": "17 AÑOS"
+                    "pregunta": "¿Cuál es el 5to mandamiento de la ley de Dios?",
+                    "respuesta": "Honrar al padre y a la madre. Éxodo 20:12"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "¿CUÁL FUE UNO DE LOS SUEÑOS DEL FARAÓN Y SU INTERPRETACIÓN?",
-                    "respuesta": "1.SUEÑO DE LAS 7 VACAS GORDAS Y 7 VACAS FLACAS. 2.SUEÑO DE LAS 7 ESPIGAS BUENAS Y 7 ESPIGAS MALAS. SIMBOLIZAN 7 AÑOS DE ABUNDANCIA Y 7 AÑOS DE ESCASEZ"
+                    "pregunta": "¿En qué libro de la Biblia encontramos la historia de la Torre de Babel?",
+                    "respuesta": "Génesis.  Génesis 11:1-9"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿QUÉ NOMBRE LE PUSO EL FARAÓN A JOSÉ?",
-                    "respuesta": "ZAFNAT-PANEA"
+                    "pregunta": "¿Quién reinaba en Judá cuando Nabucodonosor sitió Jerusalén?",
+                    "respuesta": "Joacim.  Daniel 1:1"
                 }
             ]
         }
     },
 	{    
-        "libro": "PEDRO",
+        "libro": "C",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿QUÉ OFICIO DESEMPEÑABA?",
-                    "respuesta": "PESCADOR"
+                    "pregunta": "¿Cómo se llamaban las ciudades que Dios destruyó por su pecado?",
+                    "respuesta": "Sodoma y Gomorra. Génesis 19:24-25"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "¿QUÉ SIGNIFICA EL NOMBRE PEDRO?",
-                    "respuesta": "ROCA"
+                    "pregunta": "¿Quién es el primer profeta mencionado en la Biblia?",
+                    "respuesta": "Abraham. Génesis 20:7"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "¿QUÉ HECHO OCURRIÓ AFUERA DEL TEMPLO LA HERMOSA?",
-                    "respuesta": "UN COJO QUE PEDÍA LIMOSNA FUE SANADO"
+                    "pregunta": "¿Cómo murió Juan el Bautista?",
+                    "respuesta": "murió decapitado por órdenes de Herodes. Mateo 14:1-12"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿A DÓNDE FUÉ DESPUÉS DE QUE UN ÁNGEL LO LIBRARA DE LAS MANOS DEL REY HERODES?",
-                    "respuesta": "A CASA DE MARÍA, LA MADRE DE JUAN (MARCOS)"
+                    "pregunta": "¿Cuántos años vivió Enoc antes de ser llevado al cielo?",
+                    "respuesta": "65 años. Génesis 5:21-24"
                 }
             ]
         }
     },
 	{    
-        "libro": "PABLO",
+        "libro": "D",
         "preguntas": {
             "10": [
                 {
-                    "pregunta": "¿CUÁL FUÉ SU NOMBRE REAL?",
-                    "respuesta": "SAULO"
+                    "pregunta": "¿Cómo se llaman los hijos de Noé que entraron con él al arca?",
+                    "respuesta": "Sem, Cam y Jafet. Génesis 7:13"
                 }
             ],
             "30": [
                 {
-                    "pregunta": "¿JUNTO A QUÉ APOSTOL REALIZÓ SU PRIMER VIAJE MISIONERO?",
-                    "respuesta": "BERNABÉ"
+                    "pregunta": "¿Qué mujer fué jueza y líder de Israel según dice la Biblia?",
+                    "respuesta": "Débora.  Jueces 4:4-5"
                 }
             ],
             "70": [
                 {
-                    "pregunta": "¿A QUIÉN USÓ DIOS PARA QUE PABLO RECOBRE LA VISTA?",
-                    "respuesta": "ANANÍAS"
+                    "pregunta": "¿A quién llamó Pablo «nuestro compañero de milicia»?",
+                    "respuesta": "Arquipo.  Filemón 1:2 | Epafrodito. Filipenses 2:25"
                 }
             ],
             "50": [
                 {
-                    "pregunta": "¿CUÁL ERA EL OFICIO DE PABLO?",
-                    "respuesta": "HACER TIENDAS"
+                    "pregunta": "¿Cuáles discípulos le preguntaron a Jesús si quería que ellos manden que descienda fuego del cielo?",
+                    "respuesta": "Jacobo y Juan.  Lucas 9:54"
                 }
             ]
         }
